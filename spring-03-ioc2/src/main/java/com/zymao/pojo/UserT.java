@@ -1,15 +1,15 @@
 package com.zymao.pojo;
 
-public class User {
+public class UserT {
 
     private String name;
 
-    public User(String name) {
-        this.name = name;
-    }
+//    public UserT(String name) {
+//        this.name = name;
+//    }
 
-    public User() {
-
+    public UserT() {
+        System.out.println("userT 被创建了");
     }
 
     public String getName() {
@@ -23,5 +23,4 @@ public class User {
     public void show() {
         System.out.println("name = " + name);
     }
-
 }
