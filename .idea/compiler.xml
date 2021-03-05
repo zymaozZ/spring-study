@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="c3" />
+        <module name="c4-aop" />
         <module name="c1" />
       </profile>
     </annotationProcessing>
